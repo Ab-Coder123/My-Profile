@@ -1,0 +1,121 @@
+
+          
+          <div class="about-info-skills">
+            <div class="skills-row">
+              <div class="skills-details">
+                <p>HTML</p>
+                <span>95%</span>
+              </div>
+              <div class="progress html">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="skills-row">
+              <div class="skills-details">
+                <p>CSS</p>
+                <span>99%</span>
+              </div>
+              <div class="progress css">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="skills-row">
+              <div class="skills-details">
+                <p>JavaScript</p>
+                <span>88%</span>
+              </div>
+              <div class="progress js">
+                <span></span>
+              </div>
+            </div>
+
+
+            <div class="skills-row">
+              <div class="skills-details">
+                <p>BootStrab</p>
+                <span>60%</span>
+              </div>
+              <div class="progress BootStrab">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="skills-row">
+              <div class="skills-details">
+                <p>React </p>
+                <span>88%</span>
+              </div>
+              <div class="progress React">
+                <span></span>
+              </div>
+            </div>
+
+
+
+            <div class="skills-row">
+              <div class="skills-details">
+                <p>Sass</p>
+                <span>88%</span>
+              </div>
+              <div class="progress Sass">
+                <span></span>
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+
+
+
+
+          css :
+
+
+
+          .skills-row {
+  margin-bottom: 15px;
+}
+
+.skills-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.progress {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #262a2e;
+  overflow: hidden;
+}
+
+.progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.progress.html span {
+  width: 95%;
+  background: #ff4c60;
+}
+
+.progress.css span {
+  width: 99%;
+  background: #eb3a12;
+}
+
+.progress.js span {
+  width: 88%;
+  background: #ffd15c;
+}
