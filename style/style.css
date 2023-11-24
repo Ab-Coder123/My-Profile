@@ -884,10 +884,7 @@ footer img {
   .about-info-description {
     width: 100%;
   }
-  .about-content .btn {
-    display: block;
-    margin-left: auto;
-  }
+
 }
 
 @media (max-width: 570px) {
@@ -930,4 +927,35 @@ footer img {
     flex-direction: column;
     gap: 10px;
   }
+
+  .about-content .btn {
+    left:30%;
+  }
+}
+
+
+@media (max-width: 390px) {
+  .about-content .btn {
+    left:27%;
+  }
+  .navbar {
+    bottom: 50px;
+    width: 290px;
+  }
+
+  .social-icons .social-links {
+    gap: 10px;
+  }
+  
+.social-icons li a{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius:8px;
+
+}
+.contact .btn {
+  margin-bottom:-25%;
+  left:27%;
+}
 }
